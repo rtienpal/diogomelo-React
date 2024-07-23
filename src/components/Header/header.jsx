@@ -4,13 +4,13 @@ import React from "react";
 export const Header = (props) => {
   return (
     <header id="header ">
-      <div class="d-flex justify-content-between">
-        <div class="header-logo"><img src="images/logo.png" /></div>
-        <ul class="header-contents d-flex">
-          <li class="header-content-item list-unstyled"><a href="#home">Home</a></li>
-          <li class="header-content-item list-unstyled"><a href="#resultados">Resultados</a></li>
-          <li class="header-content-item list-unstyled"><a href="#planos">Planos</a></li>
-          <li class="header-content-item list-unstyled"><a href="#queroSerAluno">Quero ser Aluno</a></li>
+      <div className="d-flex justify-content-between">
+        <div className="header-logo"><img src="images/logo.png" /></div>
+        <ul className="header-contents d-flex">
+          <li className="header-content-item list-unstyled"><a href="#home">Home</a></li>
+          <li className="header-content-item list-unstyled"><a href="#resultados">Resultados</a></li>
+          <li className="header-content-item list-unstyled"><a href="#planos">Planos</a></li>
+          <li className="header-content-item list-unstyled"><a href="#queroSerAluno">Quero ser Aluno</a></li>
         </ul>
       </div>
     </header>

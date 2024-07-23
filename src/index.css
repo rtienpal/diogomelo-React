@@ -84,3 +84,49 @@ header {
     width: 100%;
   }
 }
+
+.banner {
+  height: 500px;
+
+  .carousel-control-prev:hover,
+  .carousel-control-prev:focus,
+  .carousel-control-next:hover,
+  .carousel-control-next:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-container-1 {
+    height: 500px;
+    background-image: url(../images/carousel-banner/carousel-1.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    .carousel-text-container {
+      background-color: rgba(141, 190, 37, 0.5);
+    }
+  }
+}
+
+.carousel-container-2 {
+  height: 500px;
+  background-image: url(../images/carousel-banner/carousel-2.png);
+  background-size: cover;
+}
+
+.carousel-container-3 {
+  height: 500px;
+  background-image: url(../images/carousel-banner/carousel-3.png);
+  background-size: cover;
+}
+
+.carousel-container-4 {
+  height: 500px;
+  background-image: url(../images/carousel-banner/carousel-4.png);
+  background-size: cover;
+}
+
+.carousel img {
+  width: auto;
+  height: 700px;
+}
