@@ -43,7 +43,7 @@ header {
 
   .header-contents li {
     display: inline-block;
-    margin: 0 20px; /* Adjust spacing between items */
+    margin: 0 20px;
   }
 
   .header-contents a {
@@ -54,8 +54,8 @@ header {
     font-weight: 400;
     padding: 8px 2px;
     border-radius: 0;
-    text-decoration: none; /* Remove default underline */
-    position: relative; /* Necessary for the underline effect */
+    text-decoration: none;
+    position: relative;
   }
 
   .header-contents a:after {
@@ -77,7 +77,7 @@ header {
   .header-contents li.active a,
   .header-contents li.active a:hover,
   .header-contents li.active a:focus {
-    color: rgb(1, 255, 234) * Change active link color as needed * /;
+    color: rgb(1, 255, 234);
   }
 
   .header-contents li.active a:after {
@@ -89,44 +89,46 @@ header {
   height: 500px;
 
   .carousel-control-prev:hover,
-  .carousel-control-prev:focus,
-  .carousel-control-next:hover,
-  .carousel-control-next:focus {
-    background-color: rgba(0, 0, 0, 0.1);
+  .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out;
   }
 
   .carousel-container-1 {
-    height: 500px;
     background-image: url(../images/carousel-banner/carousel-1.png);
+  }
+  .carousel-container-2 {
+    background-image: url(../images/carousel-banner/carousel-2.png);
+  }
+
+  .carousel-container-3 {
+    background-image: url(../images/carousel-banner/carousel-3.png);
+  }
+
+  .carousel-container-4 {
+    background-image: url(../images/carousel-banner/carousel-4.png);
+    background-size: cover;
+  }
+
+  .carousel-container {
+    height: 500px;
+
     background-size: cover;
     display: flex;
     align-items: center;
 
+    &.active {
+      z-index: 1;
+    }
+
     .carousel-text-container {
-      background-color: rgba(141, 190, 37, 0.5);
+      padding: 1.25rem;
+      height: 50%;
+      justify-content: space-between;
+
+      .carousel-text-link {
+        background-color: rgba(141, 190, 37, 0.5);
+      }
     }
   }
-}
-
-.carousel-container-2 {
-  height: 500px;
-  background-image: url(../images/carousel-banner/carousel-2.png);
-  background-size: cover;
-}
-
-.carousel-container-3 {
-  height: 500px;
-  background-image: url(../images/carousel-banner/carousel-3.png);
-  background-size: cover;
-}
-
-.carousel-container-4 {
-  height: 500px;
-  background-image: url(../images/carousel-banner/carousel-4.png);
-  background-size: cover;
-}
-
-.carousel img {
-  width: auto;
-  height: 700px;
 }

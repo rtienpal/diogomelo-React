@@ -1,22 +1,20 @@
 const SLIDER_IMAGES = [
     {
-      link:
-        "https://cdn.pixabay.com/photo/2014/07/08/12/34/pizza-386717__480.jpg",
-      title: "Thirsty Thursday",
-      description: "Special Drink Pricing"
+      phrase:"Se transforme na sua melhor versão1",
+      linkText: "Ver Planos1",
     },
     {
-      link:
-        "https://cdn.pixabay.com/photo/2018/04/11/03/13/food-3309418__480.jpg",
-      title: "Join Us for Monday Savings",
-      description: "Discounted Pricing"
+      phrase:"Se transforme na sua melhor versão2",
+      linkText: "Ver Planos2",
     },
     {
-      link:
-        "https://cdn.pixabay.com/photo/2017/05/05/16/42/session-2287673__480.jpg",
-      title: "Made Just the Way You Like It",
-      description: "By Bullseye Pizza Masters"
-    }
+      phrase:"Se transforme na sua melhor versão3",
+      linkText: "Ver Planos3",
+    },
+    {
+      phrase:"Se transforme na sua melhor versão4",
+      linkText: "Ver Planos4",
+    },
   ];
   
   export default SLIDER_IMAGES;
